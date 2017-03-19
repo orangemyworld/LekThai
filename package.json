@@ -8,7 +8,7 @@
     "css:watch": "nodemon -e scss -x \"npm run css:build\"",
     "css:build": "npm run css:sass -s && npm run css:prefix -s && npm run css:min -s",
     "js:build": "webpack --config webpack.config.prod.js",
-    "js:anaylse": "webpack --config webpack.config.prod.js --json | webpack-bundle-size-analyzer",
+    "js:anaylse": "webpack --config webpack.config.prod.js --json | webpack-bundle-size-analyzer"
   },
 
   "keywords": [
